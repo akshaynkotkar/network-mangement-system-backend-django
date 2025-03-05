@@ -1,18 +1,35 @@
-Project Setup
-Clone Project: git clone https://github.com/akshaynkotkar/network-mangement-system-backend-django.git
+# Project Steup
 
-Create Virtual Environment 
-cmd-> python3 -m venv venv
-Activate Virtual ENV
-cmd-> source venv/bin/activate
 
-Now Install required packages
-cmd-> pip install -r requirements.txt
-Migration commands
-cmd->1)python manage.py makemigrations categories
-     2)python manage.py makemigrations locations
-     3)python manage.py migrate
+## Clone Project
+```bash
+git clone https://github.com/akshaynkotkar/network-mangement-system-backend-django.git
+```
 
-Then Run Project using
-cmd-> python manage.py runserver
+## Create Virtual Environment
+```bash
+python3 -m venv venv
+```
+
+## Activate Virtual ENV
+```bash
+source venv/bin/activate
+```
+
+## Install Required Packages
+```bash
+pip install -r requirements.txt
+```
+
+## Migration Commands
+```bash
+python manage.py makemigrations categories
+python manage.py makemigrations locations
+python manage.py migrate
+```
+
+## Run Project
+```bash
+python manage.py runserver
+```server
 
